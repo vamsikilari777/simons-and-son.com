@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    border: 3px solid skyblue;
+    padding:5px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aqua;
+}
+li:hover{
+    
+        border-top: 3px solid aqua ;
+        color:aqua
+    
+}
+.nav-container{
+    background-color: white;
+    
+    
+}
+.simons-logo{
+    width:90px
+}
+
+.nav-links-main{
+    margin-left:8%;
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    column-gap: 19PX;
+    /* border: 5px solid black; */
+}
+.icon{
+    width: 30px;
+}
+.coulmns-container{
+    display: flex;
+    column-gap: 10px;
+    
+}
+.coulmns-main{
+    background-color:pink;
+    padding:20px;
+}
+.column-each{
+    text-align: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.185);
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.column-each p{
+    font-family: sans-serif;
+    font-style: italic;
+
+
+}
+.footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    width: 100%;
+}
+.footer .para{
+    text-align: center;
+}
+.cardstyle{
+    padding:10px;
+    max-width: 200px;
+}
+
+spam{
+    color:aqua;
+}
+.about-section{
+    padding:20px;
+}
+.about-black{
+    background-color: black;
+    color:white;
+    margin-bottom: 3px;
+    padding:100px;
+    text-align: center;
+}
+.head{
+    margin-bottom: 50px;
+}
